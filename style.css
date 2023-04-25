@@ -154,7 +154,7 @@
   box-sizing: border-box;
   position: absolute;
   width: 860px;
-  height: 456px;
+  height: 520px;
   left: 382px;
   top: 98px;
   background: rgba(15, 11, 11, 0.7);
@@ -175,4 +175,26 @@
 }
 .rectangle-heading span:active{
   color: #fff;
+}
+
+.image-area{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-content: center;
+  justify-content: space-evenly;
+  position: static;
+}
+
+.image{
+  color: #fff;
+  padding: 25px 20px 20px;
+  font-size:small;
+  max-width: 215px;
+  max-height: 172px;
+  box-shadow: #D9D9D9;
+}
+.image:hover{
+  opacity: .5;
+  transition: .8s;
 }
